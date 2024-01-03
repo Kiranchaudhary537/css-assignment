@@ -1,0 +1,24 @@
+body {
+  background-color: #ff9999;
+}
+
+main {
+  display: flex;
+  flex-flow: row;
+}
+#content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 500px;
+}
+
+#about {
+  display: flex;
+  flex-flow: column wrap;
+}
+#about img {
+  height: auto;
+  width: 100%;
+}

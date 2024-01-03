@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  background-color: #d8da3d;
+  color: #80007e;
+}
+aside {
+  width: 30%;
+  margin-right: 5%;
+}
+
+ul {
+  list-style-type: none;
+}
+ul li {
+  display: block;
+  margin: 1em;
+  padding: 0.5em;
+  background: rgb(243, 243, 245);
+  background: linear-gradient(
+    90deg,
+    rgba(243, 243, 245, 1) 0%,
+    rgba(233, 233, 240, 1) 90%,
+    rgba(71, 71, 73, 1) 90%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+main section p {
+  width: 100%;
+  overflow: hidden;
+}
+#copyright {
+  border-top: 1px dashed;
+}
