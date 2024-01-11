@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
@@ -6,12 +7,14 @@ body {
     background-color: #d8da3d;
     color: #80007e;
 
+    /* Sidebar Styles */
     aside {
         margin-top: 1em;
         width: 30%;
         margin-right: 5%;
         flex: 0 0 20vw;
 
+        /* Navigation List Styles */
         ul {
             list-style-type: none;
 
@@ -19,6 +22,7 @@ body {
                 margin: 1em;
                 padding: 0.5em;
 
+                /* Alternating List Item Styles */
                 &:nth-child(2n) {
                     background: linear-gradient(90deg,
                             rgba(255, 255, 255, 1) 0%,
@@ -38,24 +42,29 @@ body {
         }
     }
 
+    /* Main Content Styles */
     main {
         width: 70%;
     }
 
+    /* About Section Styles */
     .about-section {
         padding-bottom: 2em;
         margin-bottom: 1em;
         border-bottom: 1px dashed;
 
+        /* Overflow Hidden for Paragraphs */
         p {
             width: 100%;
             overflow: hidden;
         }
     }
 
+    /* Content Section Styles */
     .content-section p {
         color: black;
 
+        /* Individual Paragraph Styles */
         &:nth-child(1) {
             border: 2px dashed black;
             padding: 0.5em;
@@ -75,6 +84,7 @@ body {
         }
     }
 
+    /* Copyright Section Styles */
     .copyright-section {
         margin-top: 1em;
     }

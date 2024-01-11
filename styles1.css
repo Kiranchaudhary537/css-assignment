@@ -1,3 +1,4 @@
+/* body */
 body {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
@@ -6,18 +7,25 @@ body {
   background-color: #d8da3d;
   color: #80007e;
 }
+
+/* sidebar */
 aside {
   margin-top: 1em;
   width: 30%;
   margin-right: 5%;
   flex: 0 0 20vw;
 }
-body main {
+
+/* main  */
+main {
   width: 70%;
 }
+
 ul {
   list-style-type: none;
 }
+
+/* list  */
 ul li {
   display: block;
   margin: 1em;
@@ -35,6 +43,10 @@ main section p {
   width: 100%;
   overflow: hidden;
 }
+.main-section {
+  padding-bottom: 2em;
+  border-bottom: 1px dashed;
+}
 #copyright {
-  border-top: 1px dashed;
+  border-top: 1px solid dashed;
 }
