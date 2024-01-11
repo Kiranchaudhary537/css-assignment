@@ -29,6 +29,8 @@ body main {
   width: 70%;
 }
 body .about-section {
+  padding-bottom: 2em;
+  margin-bottom: 1em;
   border-bottom: 1px dashed;
 }
 body .about-section p {
