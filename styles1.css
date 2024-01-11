@@ -18,7 +18,7 @@ aside {
 
 /* main  */
 main {
-  width: 70%;
+  width: 100%;
 }
 
 ul {
@@ -38,6 +38,10 @@ ul li {
     rgba(71, 71, 73, 1) 90%,
     rgba(0, 0, 0, 1) 100%
   );
+}
+/* about section */
+.about-section {
+  width: 70%;
 }
 main section p {
   width: 100%;
