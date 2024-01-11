@@ -43,22 +43,27 @@ body aside ul li:nth-child(2n+1) {
   background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 90%, rgb(255, 165, 0) 90%, rgb(255, 165, 0) 100%);
 }
 body main {
-  width: 70%;
+  width: 100%;
   /* About Section Styles */
+  /* Added break point with border */
   /* Content Section Styles */
   /* Copyright Section Styles */
 }
 body main .about-section {
+  width: 70%;
   padding-bottom: 2em;
   margin-bottom: 1em;
-  border-bottom: 1px dashed;
   /* Overflow Hidden for Paragraphs */
 }
 body main .about-section p {
   width: 100%;
   overflow: hidden;
 }
+body main .break-point {
+  border-bottom: 1px dashed;
+}
 body main .content-section {
+  width: 70%;
   /* Apply Bounce Effect on Hover for Bordered div */
 }
 body main .content-section .bordered-div {

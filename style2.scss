@@ -66,14 +66,14 @@ body {
 
     /* Main Content Styles */
     main {
-        width: 70%;
-
+        width: 100%;
 
         /* About Section Styles */
         .about-section {
+            width: 70%;
+
             padding-bottom: 2em;
             margin-bottom: 1em;
-            border-bottom: 1px dashed;
 
             /* Overflow Hidden for Paragraphs */
             p {
@@ -82,9 +82,15 @@ body {
             }
         }
 
+        /* Added break point with border */
+        .break-point {
+            border-bottom: 1px dashed;
+        }
 
         /* Content Section Styles */
         .content-section {
+            width: 70%;
+
             .bordered-div {
                 color: black;
 
